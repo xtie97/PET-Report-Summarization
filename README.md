@@ -22,9 +22,3 @@ Inference:
 ```bash
 python ... 
 ```
-
-# Metric Usage: Python Module
-
-# Publications
-# PET-Report-Summarization
-# PET-Report-Summarization
