@@ -498,7 +498,7 @@ if __name__ == "__main__":
 Example command for PEGASUS-training 
 python finetune_no_trainer.py --model_name_or_path google/pegasus-large 
                               --output_dir models/pegasus-large 
-                              --learning_rate 2e-4 
+                              --learning_rate 4e-4 
                               --per_device_train_batch_size 4 
                               --gradient_accumulation_steps 8 
 
