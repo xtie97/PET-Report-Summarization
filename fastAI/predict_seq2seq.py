@@ -73,13 +73,13 @@ if __name__ == '__main__':
 
     print('Start testing')
     # PEGASUS
-    predict_text(df, "google/pegasus-large", 'pegasus_large', lr=2e-4, test_epoch=10)
+    predict_text(df, "google/pegasus-large", 'pegasus_large', lr=4e-4, test_epoch=10)
 
     # BART
     predict_text(df, "facebook/bart-large", "bart_large", lr=5e-5, test_epoch=9)
 
     # T5V1
-    predict_text(df, "google/t5-v1_1-large", "t5_large", lr=4e-4, test_epoch=12)
+    predict_text(df, "google/t5-v1_1-large", "t5_large", lr=2e-4, test_epoch=12)
 
     # BERT2BERT (Clinical-longformer2Roberta)    
     predict_text(df, ["yikuan8/Clinical-Longformer", "roberta-base"], "cli_longformer_roberta", lr=1e-4, test_epoch=11)
