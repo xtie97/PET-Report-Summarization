@@ -69,7 +69,7 @@ if __name__ == "__main__":
     model_id = "google/pegasus-large" # Hugging Face Model Id
     encoder_max_length = 1024 # max length of the input text
     decoder_max_length = 512 # max length of the output text
-    lr = 2e-4 # learning rate
+    lr = 4e-4 # learning rate
     save_dataset_path = "data" # local path to save processed dataset
     # tokenize and save training/validation datasets
     preprocess(df_train, text_column, summary_column, model_id, encoder_max_length, decoder_max_length, save_dataset_path)
