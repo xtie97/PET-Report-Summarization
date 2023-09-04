@@ -71,7 +71,7 @@ def predict_text(df):
 if __name__ == '__main__':
     # load prediction results 
     savename = 'pegasus_large'
-    lr = 4e-4 
+    lr = 2e-4
     test_epoch = 10
     save_pred_dir = f'{savename}_pred'
 
