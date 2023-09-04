@@ -88,10 +88,10 @@ if __name__ == "__main__":
     df_train['findings_info'] = df_train['findings_info'].apply(lambda x: x.replace('\n',' '))
 
     # PEGASUS
-    finetune(df_train, "google/pegasus-large", "pegasus_large", lr=2e-4, batchsize=32, batchsize_per_device=4, finetune_nepoch=15)
+    finetune(df_train, "google/pegasus-large", "pegasus_large", lr=4e-4, batchsize=32, batchsize_per_device=4, finetune_nepoch=15)
 
     # BART
     finetune(df_train, "facebook/bart-large", "bart_large", lr=5e-5, batchsize=32, batchsize_per_device=4, finetune_nepoch=15)
 
     # T5V1
-    finetune(df_train, "google/t5-v1_1-large", "t5_large", lr=4e-4, batchsize=32, batchsize_per_device=4, finetune_nepoch=15)
+    finetune(df_train, "google/t5-v1_1-large", "t5_large", lr=2e-4, batchsize=32, batchsize_per_device=4, finetune_nepoch=15)
