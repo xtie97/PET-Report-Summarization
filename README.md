@@ -66,5 +66,14 @@ output_str = tokenizer.decode(outputs,
 
 ```
 
+## Human Evaluation :busts_in_silhouette:
+
+
+
+
+## Human Evaluation
+We released the webpage designed for expert review. Feel free to check it out.
+:point_right: [PET-Report-Expert-Evaluation](https://github.com/xtie97/PET-Report-Expert-Evaluation)
+
 ## 📚 Citation
 
