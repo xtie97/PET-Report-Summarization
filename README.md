@@ -22,7 +22,7 @@ In this work, we investigated both encoder-decoder and decoder-only language mod
     <img src="input_template.png" width="800" alt="input">
 </p>
 
-## 🚀 Getting Started
+## 🚀 Usage
 
 We already released our model weights in [**Hugging Face**](https://huggingface.co/xtie/PEGASUS-PET-impression). To generate the impressions, run the following code:
 
