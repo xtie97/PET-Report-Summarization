@@ -9,6 +9,8 @@ We shared three implementation methods in this repository:
 
 ## 🚀 Getting Started
 
+We already released our model weights in [*Hugging Face*] 
+
 ```bash
 python 
 ```
