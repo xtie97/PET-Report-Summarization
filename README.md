@@ -1,13 +1,14 @@
 # Fine-tuning Large Language Models (LLMs) for PET Report Summarization :bookmark_tabs:
 
-This repo contains the code for training LLMs on a large corpus of PET reports and generating impressions based on PET reports (a large majority is whole-body PET/CT reports). 
+This repository contains the code for the paper (under review) [**Automatic Personalized Impression Generation for PET Reports Using Large Language Models**](#link-to-paper). 
+
+We provided three implementations that could reproduce our results: fastAI, non-trainer, trainer (deepspeed). 
 
 
 # Installation
 
 ```bash
-conda create -n prismenv python=3.7 -y
-conda activate prismenv  # older conda versions: source activate prismenv
+python 
 ```
 
 
