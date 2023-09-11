@@ -7,15 +7,16 @@ We shared three implementation methods in this repository:
 - [**Non-trainer Implementation**](https://github.com/xtie97/PET-Report-Summarization/tree/main/nontrainer): more flexible
 - [**Trainer (with deepspeed) Implementation**](https://github.com/xtie97/PET-Report-Summarization/tree/main/deepspeed): reduce memory usage and accelerate training
 
-## Overview
-Summary: The fine-tuned large language model provides clinically useful, personalized impressions based on PET findings. To the best of our knowledge, this is the first attempt to automate impression generation for whole-body PET reports. 
+## Overview :mag_right:
+**Summary**: 
+The fine-tuned large language model provides clinically useful, personalized impressions based on PET findings. To the best of our knowledge, this is the first attempt to automate impression generation for whole-body PET reports. 
 
-Key points:
-•	Among 30 evaluation metrics, domain-adapted BARTScore and PEGASUSScore exhibited the highest correlations (Spearman's ρ correlation=0.568 and 0.563) with physician preferences, yet they did not reach the level of inter-reader correlation (ρ=0.654).
-•	Of all fine-tuned large language models, encoder-decoder models outperformed decoder-only models, with PEGASUS emerging as the top-performing model.
-•	In the reader study, three nuclear medicine physicians considered the overall utility of personalized PEGASUS-generated impressions to be comparable to clinical impressions dictated by other physicians.
+**Key Points**:
+- :chart_with_upwards_trend: Among 30 evaluation metrics, domain-adapted BARTScore and PEGASUSScore exhibited the highest correlations (Spearman's ρ correlation=0.568 and 0.563) with physician preferences, yet they did not reach the level of inter-reader correlation (ρ=0.654).
+- :trophy: Of all fine-tuned large language models, encoder-decoder models outperformed decoder-only models, with PEGASUS emerging as the top-performing model.
+- :medal_sports: In the reader study, three nuclear medicine physicians considered the overall utility of personalized PEGASUS-generated impressions to be comparable to clinical impressions dictated by other physicians.
 
-## Input Templates:
+## Input Templates :pencil2:
 In this work, we investigated both encoder-decoder and decoder-only language models. Considering their different architectures, we customized input templates as illustrated in the figure below. Note that for decoder-only models, we employed the instruction-tuning method and adapted the prompt from [Alpaca](https://github.com/tatsu-lab/stanford_alpaca)
 <p align="center">
     <img src="./figures/input_template.tif" width="666" alt="method">
