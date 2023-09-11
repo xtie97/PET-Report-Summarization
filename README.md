@@ -57,5 +57,3 @@ output_str = tokenizer.decode(outputs,
 _(You can provide a BibTeX citation or other format here.)_
 
 
-# Installation
-
