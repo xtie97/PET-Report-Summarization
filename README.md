@@ -22,7 +22,7 @@ In this work, we investigated both encoder-decoder and decoder-only language mod
     <img src="input_template.png" width="800" alt="input">
 </p>
 
-## Usage: 🚀
+## Usage 🚀
 
 We already released our model weights in [**Hugging Face**](https://huggingface.co/xtie/PEGASUS-PET-impression). To generate the impressions, run the following code:
 
@@ -69,5 +69,5 @@ output_str = tokenizer.decode(outputs,
 ## Human Evaluation :busts_in_silhouette:
 We released the webpage designed for expert review. Feel free to check it out. :point_right: [PET-Report-Expert-Evaluation](https://github.com/xtie97/PET-Report-Expert-Evaluation)
 
-## Citation: 📚
+## Citation 📚
 
