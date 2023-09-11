@@ -19,7 +19,7 @@ The fine-tuned large language model provides clinically useful, personalized imp
 ## Input Templates :pencil2:
 In this work, we investigated both encoder-decoder and decoder-only language models. Considering their different architectures, we customized input templates as illustrated in the figure below. Note that for decoder-only models, we employed the instruction-tuning method and adapted the prompt from [Alpaca](https://github.com/tatsu-lab/stanford_alpaca)
 <p align="center">
-    <img src="./figures/input_template.tif" width="666" alt="method">
+    <img src="input_template.tif" width="666" alt="method">
 </p>
 
 ## 🚀 Getting Started
