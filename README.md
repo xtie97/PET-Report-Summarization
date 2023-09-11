@@ -53,7 +53,6 @@ output_str = tokenizer.decode(outputs,
 
 ## 📚 Citation
 
-If you use our code or findings in your research, please consider citing our paper. 
 
 _(You can provide a BibTeX citation or other format here.)_
 
