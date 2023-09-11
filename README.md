@@ -1,6 +1,6 @@
 # Fine-tuning Large Language Models (LLMs) for PET Report Summarization :bookmark_tabs:
 
-This repository contains the code for the paper (under review) [**Automatic Personalized Impression Generation for PET Reports Using Large Language Models**](#link-to-paper). 
+This repository contains the code for the paper [**Automatic Personalized Impression Generation for PET Reports Using Large Language Models**](#link-to-paper) (under review). 
 
 We shared three implementation methods in this repository: 
 - [**fastAI Implementation**](https://github.com/xtie97/PET-Report-Summarization/tree/main/fastAI): simple and easy to use
