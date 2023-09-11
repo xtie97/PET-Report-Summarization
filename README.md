@@ -68,7 +68,3 @@ output_str = tokenizer.decode(outputs,
 
 ## 📚 Citation
 
-
-_(You can provide a BibTeX citation or other format here.)_
-
-
