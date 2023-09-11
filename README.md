@@ -2,10 +2,10 @@
 
 This repository contains the code for the paper (under review) [**Automatic Personalized Impression Generation for PET Reports Using Large Language Models**](#link-to-paper). 
 
-We provided three implementations that could reproduce our results: 
-- [**fastAI Implementation**](https://github.com/xtie97/PET-Report-Summarization/tree/main/fastAI)
-- [**Non-trainer Implementation**](https://github.com/xtie97/PET-Report-Summarization/tree/main/nontrainer)
-- [**Trainer (with deepspeed) Implementation**](https://github.com/xtie97/PET-Report-Summarization/tree/main/deepspeed)
+We shared three implementation methods in this repository: 
+- [**fastAI Implementation**](https://github.com/xtie97/PET-Report-Summarization/tree/main/fastAI): simple and easy to use
+- [**Non-trainer Implementation**](https://github.com/xtie97/PET-Report-Summarization/tree/main/nontrainer): more flexible
+- [**Trainer (with deepspeed) Implementation**](https://github.com/xtie97/PET-Report-Summarization/tree/main/deepspeed): reduce memory usage and accelerate training
 
 ## 🚀 Getting Started
 
