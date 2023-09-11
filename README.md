@@ -2,24 +2,23 @@
 
 This repository contains the code for the paper (under review) [**Automatic Personalized Impression Generation for PET Reports Using Large Language Models**](#link-to-paper). 
 
-We provided three implementations that could reproduce our results: [fastAI](#https://github.com/xtie97/PET-Report-Summarization/tree/main/fastAI), [non-trainer](#https://github.com/xtie97/PET-Report-Summarization/tree/main/nontrainer), [trainer (deepspeed)](#https://github.com/xtie97/PET-Report-Summarization/tree/main/deepspeed). 
+We provided three implementations that could reproduce our results: 
+- [**fastAI Implementation**](https://github.com/xtie97/PET-Report-Summarization/tree/main/fastAI)
+- [**Non-trainer Implementation**](https://github.com/xtie97/PET-Report-Summarization/tree/main/nontrainer)
+- [**Trainer (with deepspeed) Implementation**](https://github.com/xtie97/PET-Report-Summarization/tree/main/deepspeed)
 
-
-# Installation
+## 🚀 Getting Started
 
 ```bash
 python 
 ```
 
+## 📚 Citation
 
-# Usage: Command Line
+If you use our code or findings in your research, please consider citing our paper. 
 
-Training 
-```bash
-python ... 
-```
+_(You can provide a BibTeX citation or other format here.)_
 
-Inference: 
-```bash
-python ... 
-```
+
+# Installation
+
