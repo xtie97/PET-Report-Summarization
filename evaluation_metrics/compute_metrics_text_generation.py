@@ -24,7 +24,7 @@ def compute_metrics(df, save_path):
     bart_ParaBank_scorer = BARTScorer(device='cuda:0', checkpoint='facebook/bart-large-cnn') # from GitHub
     bart_ParaBank_scorer.load(path='BARTScore/checkpoints/bart_score.pth')
 
-    bart_PT_scorer = BARTScorer(device='cuda:0', checkpoint='BARTScore/checkpoints/ -large')
+    bart_PT_scorer = BARTScorer(device='cuda:0', checkpoint='BARTScore/checkpoints/bart-large')
 
     ### PEGASUS Score ###
     pegasus_PT_scorer = BARTScorer(device='cuda:0', checkpoint='BARTScore/checkpoints/pegasus-large')
