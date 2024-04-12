@@ -4,6 +4,11 @@ This repository contains the code for evaluating the quality of PET impressions.
 
 We appreciate the previous works that implemented the evaluation metrics 
 
+## Models
+
+In our paper, we also adapted BART, PEGASUS and T5 to the domain of clinical PET reports. These models can be used in BARTScore to compute the semantic similarity between the reference text and the generated text. The weights are available in [HuggingFace](https://huggingface.co/xtie/BARTScore-PET). 
+
+
 ## ⚖️ Acknowledgments
 
 Parts of the code in this repository were adapted from [SummEval](https://github.com/Yale-LILY/SummEval), [BARTScore](https://github.com/neulab/BARTScore), [UniEval](https://github.com/maszhongming/UniEval), [PRISM](https://github.com/thompsonb/prism). We sincerely thank the authors of these repositories for their contributions to the community.
