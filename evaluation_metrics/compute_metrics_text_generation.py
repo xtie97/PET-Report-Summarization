@@ -143,7 +143,6 @@ def compute_metrics(df, save_path):
 
 if __name__ == '__main__':
     # Get data
-    #text_file = ['PGN_200', 'Clinicallongformer2Roberta_200', 'BART_200', 'PEGASUS_200']
     text_file  = ['pgn-w-bg',
                   'clinicallongformer2roberta', 
                   'bart-large', 'biobart-large', 
