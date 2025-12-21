@@ -70,4 +70,4 @@ output_str = tokenizer.decode(outputs,
 We released the webpage designed for expert review. Feel free to check it out. :point_right: [PET-Report-Expert-Evaluation](https://github.com/xtie97/PET-Report-Expert-Evaluation)
 
 ## Citation 📚
-Tie X, Shin M, Pirasteh A, Ibrahim N, Huemann Z, Castellino SM, Kelly KM, Garrett J, Hu J, Cho SY, Bradshaw TJ. Personalized Impression Generation for PET Reports Using Large Language Models. J Imaging Inform Med. 2024 Apr;37(2):471-488. doi: 10.1007/s10278-024-00985-3. Epub 2024 Feb 2. PMID: 38308070; PMCID: PMC11031527.
+Tie, X., Shin, M., Pirasteh, A. et al. Personalized Impression Generation for PET Reports Using Large Language Models. J Digit Imaging. Inform. med. 37, 471–488 (2024). https://doi-org.ezproxy.library.wisc.edu/10.1007/s10278-024-00985-3
